@@ -1,0 +1,248 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4a4a4a;
+}
+
+h3 {
+  color: #545454;
+}
+
+p {
+  color: #9fa0a0;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+.navbar {
+  position: relative;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #4a4a4a;
+}
+
+.navbar .links-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.navbar a.links {
+  padding: 0 8px;
+}
+
+.navbar img {
+  margin-left: 24px;
+}
+
+.section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.section .left-col {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.section img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.section .right-col {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+}
+
+#num1 {
+  background-color: #d8d8d8;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#num1 .right-col {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+#num1 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #444444;
+}
+
+#num1 h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #444444;
+}
+
+#num1 .button {
+  background-color: #444444;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 40%;
+}
+
+#num2 {
+  background-color: #f3f5f5;
+}
+
+#num2 .left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#num2 .right-col {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#num2 .right-col a {
+  color: #78a6e6;
+}
+
+#num2 .right-col .my-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#num2 .right-col .my-row img {
+  width: 35%;
+  margin: 16px;
+}
+
+#num2 .right-col .my-row .sub-right-col {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#num2 .right-col .my-row .sub-right-col a {
+
+}
+
+#num3 {
+  display: flex;
+  padding: 32px 72px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eaebec;
+}
+
+#num3 .courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+#num3 .courses .course {
+  padding: 0 16px 24px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#num3 .courses .course img {
+  position: relative;
+}
+
+#num4 {
+  padding: 32px 0 32px 24px;
+}
+
+#num4 h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+#num4 video {
+  width: 100%;
+  margin-right: 24px;
+}
+
+#num4 .row #right-col {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#num4 .row #right-col .my-row {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+#num4 .row #right-col .my-row img {
+  width: 35%;
+  margin: 16px;
+}
+
+#num4 .row #right-col .my-row .sub-right-col {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#num4 .row #right-col .my-row img {
+  width: 35%;
+  margin: 16px;
+}
+
+.row {
+  margin-top: 24px;
+}
+
+.card {
+  margin: 0 16px;
+}
+
+.section4 {
+
+}
+
+.footer {
+
+}

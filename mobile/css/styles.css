@@ -1,0 +1,52 @@
+body {
+  width: 100vw;
+}
+
+.mobile-nav {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mobile-nav img {
+  height: 100%;
+}
+
+#num1 {
+  padding: 32px 16px;
+}
+
+img {
+  width: 100%;
+}
+
+#num2 {
+  padding: 16px;
+}
+
+#num2 .event {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 16px;
+}
+
+#num3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#num3 .box {
+  margin: 8px;
+  padding: 16px 16px 24px 16px;
+  text-align: left;
+}
+
+#num4 video {
+  width: 100%;
+}
